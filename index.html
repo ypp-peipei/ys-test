@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCONN Banner with Margins</title>
+    <style>
+        body {
+            margin: 0; /* 移除默认边距 */
+            font-family: Helvetica, Arial, sans-serif; /* 全局字体为 Helvetica */
+            line-height: 1.6; /* 改善行距 */
+            color: #333; /* 中性色的文本颜色 */
+        }
+        .banner {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* 水平居中 */
+            background-color: #001A4D; /* 深蓝背景 */
+            color: white; /* 白色文字 */
+            padding: 20px; /* 设置内边距 */
+            font-size: 1.5rem; /* 调整字体大小 */
+            font-weight: bold; /* 加粗文字 */
+        }
+        .content {
+            max-width: 900px; /* 设置内容最大宽度 */
+            margin: 0 auto; /* 自动居中 */
+            padding: 20px; /* 内边距用于上下间距 */
+        }
+        h1 {
+            color: #002855; /* 标题蓝色 */
+            font-size: 2rem; /* 标题字体大小 */
+            font-family: Helvetica, Arial, sans-serif; /* 确保标题也使用 Helvetica */
+        }
+        h2 {
+            color: #002855; /* 标题蓝色 */
+            font-size: 1.3rem; /* 小标题字体稍微小一点 */
+            font-family: Helvetica, Arial, sans-serif; /* 设置小标题为 Helvetica */
+        }
+        h3 {
+            color: #1677b3; /* 标题蓝色 */
+            font-size: 1.1rem; /* 小标题字体稍微小一点 */
+            font-family: Helvetica, Arial, sans-serif; /* 设置小标题为 Helvetica */
+        }
+        
+        p {
+            margin-bottom: 20px; /* 段落间距 */
+            text-align: justify; /* 两端对齐 */
+            font-family: Helvetica, Arial, sans-serif; /* 确保段落字体为 Helvetica */
+        }
+        ul {
+            margin-top: 20px;
+            padding-left: 20px; /* 列表缩进 */
+        }
+        ul li {
+            margin-bottom: 10px;
+            font-family: Helvetica, Arial, sans-serif; /* 列表字体设置为 Helvetica */
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <!-- Banner -->
+    </div>
+    <div class="content">
+        <h1>MEDIAN HOUSEHOLD INCOME GAP</h1>
+        <h2>About</h2>
+        <p>The <strong>Median Household Income Gap</strong> measures the gap or the ratio between the median income of households headed by a Black individual versus the median income of households headed by a White individual. Individuals from both Hispanic and non-Hispanic ethnicities are included. 
+            The <strong>Median Household Income Gap</strong> highlights systemic inequitable in economic opportunities and outcomes, rooted in historical and structural discrimination. This measure is crucial for understanding disparities that affect community health, resource access, and quality of life. According to the U.S. Census Bureau’s 2022 data, the median household income for Black Households was $52,860, while for White households was $81,060. This indicates that Black households earned approximately 65% of what White households earned, highlighting a significant income disparity between these groups <strong>[1]</strong>. 
+            </p>
+        <h2>Why is the Median Household Income Gap important to structural and institutional racism and discrimination?</h2>
+        <h3>Overview</h3>
+        <p>The <strong>Median Household Income Gap</strong> is crucial to understanding structural and institutional racism and discrimination because it reflects disparities in income, employment, homeownership, education, access to credit, and retirement savings between Black and White households <strong>[2]</strong>. This gap is not solely due to labor market disadvantages but is significantly influenced by national trends of rising income inequality, which, if not for its increase, would have seen a 30% reduction in the median black-white family income gap <strong>[3]</strong>. Institutional racism, particularly in the 20th century, has played a pivotal role in creating disparities in homeownership and house values, contributing to current racial inequalities <strong>[4]</strong>. Moreover, structural racism affects family structure and exacerbates poverty and inequality <strong>[5]</strong>, underlining the importance of addressing these systemic issues to close the income gap and combat racial discrimination.</p>
+        <h3>Expected Relation to Structural Racism and Discrimination</h3>
+        <p>A higher gap between the median income of Black households versus White households potentially indicates a higher inequality of income and lower wealth accumulation for the Black population to the White population. Higher income inequality (and low accumulation of wealth) among the Black population increases the occurrences and risk of experiencing social injustices and discrimination and further amplifies the manifestation of structural and instructional racism and discrimination.</p>
+        <h2>How is the Median Household Income Gap calculated?</h2>
+        <h3>Data</h3>
+        <p>We used two variables, 1&#41; <strong>Median income in US dollars of households headed by an individual from the Black race</strong>, and 2&#41; <strong>Median income in US dollars of households headed by an individual from the White race</strong>. Individuals from both Hispanic and non-Hispanic ethnicities are included.
+        </p>
+        <h3>Data Source</h3>
+        <table style="width: 100%; border-collapse: collapse; text-align: left; font-family: Helvetica, Arial, sans-serif; table-layout: fixed;">
+            <colgroup>
+                <col style="width: 40%;"> <!-- 第一列宽度 -->
+                <col style="width: 10%;"> <!-- 第二列宽度 -->
+                <col style="width: 15%;"> <!-- 第三列宽度 -->
+                <col style="width: 15%;"> <!-- 第四列宽度 -->
+                <col style="width: 25%;"> <!-- 第五列宽度 -->
+            </colgroup>
+            <thead>
+                <tr style="background-color: #f2f2f2; border-bottom: 1px solid #ddd;">
+                    <th style="padding: 8px; border: 1px solid #ddd;">Variable</th>
+                    <th style="padding: 8px; border: 1px solid #ddd;">Year</th>
+                    <th style="padding: 8px; border: 1px solid #ddd;">Unit</th>
+                    <th style="padding: 8px; border: 1px solid #ddd;">Data Type</th>
+                    <th style="padding: 8px; border: 1px solid #ddd;">Dataset Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Median Household Income in the Past 12 Months (in Inflation-Adjusted Dollars) (Black Alone Householder)</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">2000<br>2010<br>2020</td>
+                    <td style="padding: 8px; border: 1px solid #ddd; white-space: nowrap;">US Dollars ($)</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Continuous</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">B19013B (2010 &amp; 2020)<br>NP152A (2000)</td>
+                </tr>
+                <tr style="background-color: #f9f9f9;">
+                    <td style="padding: 8px; border: 1px solid #ddd;">Median Household Income in the Past 12 Months (in Inflation-Adjusted Dollars) (White Alone Householder)</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">2000<br>2010<br>2020</td>
+                    <td style="padding: 8px; border: 1px solid #ddd; white-space: nowrap;">US Dollars ($)</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Continuous</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">B191013A (2010 &amp; 2020)<br>NP152A (2000)</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Methodology</h3>
+        <p>We calculated the <strong>Median Household Income Gap</strong> using a ratio formula.</p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+            <mi>RBWhMedHHInc</mi>
+            <mo>=</mo>
+            <mfrac>
+                <mi>BlMedHHInc</mi>
+                <mi>WhMedHHInc</mi>
+            </mfrac>
+        </math>
+        <p style="font-size: 14px; margin-bottom: 5px; line-height: 1.2;"><strong>Where:</strong></p>
+        <p style="font-size: 14px; margin-bottom: 5px; line-height: 1.2;"><i>RBlWhMedHHInc</i>: Ratio between the median income of Black households versus median income of White households</p>
+        <p style="font-size: 14px; margin-bottom: 5px; line-height: 1.2;"><i>BlMedHHInc</i>: Median Household Income for Black population</p>
+        <p style="font-size: 14px; margin-bottom: 5px; line-height: 1.2;"><i>WhMedHHInc</i>: Median Household Income for White population</p>
+        <p style="font-size: 14px; margin-bottom: 5px; line-height: 1.2;"><strong>Note:</strong> A high Median Household Income Gap (<i>RBlWhMedHHInc</i>) corresponds to a high SRD Index Score.</p>
+        <h3>Missing Data</h3>
+        <p>We replaced missing values by using functions that were rooted in Tobler's First Law of Geography, i.e., "everything is related to everything else, but near things are more related than distant things" <strong>[5]</strong>. This law also informs the concept of Spatial Autocorrelation (SA). The indicators were highly spatially autocorrelated and the missing values were imputed using the median value of the eight nearest neighbors. The eight nearest neighbors were identified using the KDTree algorithm in Python's scipy.spatial module. The KDTree is a data structure used to organize points in a k-dimensional space for efficient nearest-neighbor searches. It is a binary tree built by recursively splitting the dataset along different axes, ensuring balanced partitions using the “sliding midpoint” rule. Each node represents an axis-aligned hyperrectangle, and the tree structure allows for efficient querying of the 'n' closest neighbors to a given point <strong>[6]</strong>. After imputation of missing data, we have 13 counties with no data in 2020, and none for the 2010 and 2000 years. </p>
+        <h2>Limitations</h2>
+        <p>Data is not available in 1990</p>
+        <h2>Data Download</h2>
+        <a href="SRD_Data_Download.html">
+            <p>SRD Data & Documentation Download</p>
+        </a>
+        <table style="width: 100%; border-collapse: collapse; font-family: Helvetica, Arial, sans-serif;">
+            <thead>
+                <tr style="background-color: #f2f2f2; border: 1px solid #ddd;">
+                    <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Variable</th>
+                    <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;">BlMedHHInc</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Median Household Income for Black population</td>
+                </tr>
+                <tr style="background-color: #f9f9f9;">
+                    <td style="padding: 8px; border: 1px solid #ddd;">WhMedHHInc</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Median Household Income for White population</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;">RBlWhMedHHInc</td>
+                    <td style="padding: 8px; border: 1px solid #ddd;">Ratio between the median income of Black households versus median income of White households</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>References</h2>
+<ol>
+    <li>
+        Guzman, G., & Kollar, M. (2023). <i>Income in the United States: 2022 (Current Population Reports, P60-279)</i>. U.S. Census Bureau. U.S. Government Publishing Office. 
+        <a href="https://www.census.gov/content/dam/Census/library/publications/2023/demo/p60-279.pdf" target="_blank">
+            https://www.census.gov/content/dam/Census/library/publications/2023/demo/p60-279.pdf
+        </a>
+    </li>
+    <li>
+        Broady, K.E., Booth-Bell, D., & Griffin, T.C. (2022). <i>Seven Economic Facts about the U.S. Racial Wealth Gap</i>. SSRN Electronic Journal.
+    </li>
+    <li>
+        Manduca, R.A. (2018). <i>Income Inequality and the Persistence of Racial Economic Disparities</i>. Sociological Science, 5, 182-205.
+    </li>
+    <li>
+        LaBriola, J. (2021). <i>Rising House Prices and the White-Black Wealth Gap</i>.
+    </li>
+    <li>
+        Baker, R.S., & O’Connell, H.A. (2022). <i>Structural Racism, Family Structure, and Black-White Inequality in Poverty: The Differential Impact of the Legacy of Slavery among Single Mother & Married Parent Households</i>.
+    </li>
+    <li>
+        Tobler, W. R. (1970). <i>A Computer Movie Simulating Urban Growth in the Detroit Region</i>. Economic Geography, 46(sup1), 234–240. 
+        <a href="https://doi.org/10.2307/143141" target="_blank">https://doi.org/10.2307/143141</a>
+    </li>
+    <li>
+        SciPy Developers. (n.d.). <i>scipy.spatial.KDTree</i>. SciPy v1.10.1 Manual. Retrieved November 19, 2024, from 
+        <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.KDTree.html" target="_blank">
+            https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.KDTree.html
+        </a>
+    </li>
+</ol>
+    </div>
+</body>
+</html>
+
+
